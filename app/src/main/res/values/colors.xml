@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- default
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    -->
+
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">@android:color/white</color>
+    <color name="colorAccent">#FE7C8D</color> <!-- rgb 254 124 141 ribbon color -->
+    <color name="colorDrawText">#4C3C40</color> <!-- last : #4c3c40 -->
+    <color name="colorDrawIcon">#82696E</color> <!-- last : #82696e -->
+    <color name="colorDrawBackground">#F9F6F8</color> <!-- for selected activity -->
+    <color name="colorItemSeparator">#e5dcdd</color> <!-- for item line , origin #dbd2d3-->
+    <color name="colorProgressTextView">#B2A6A7</color>
+    <color name="colorProgressBarBackground">#FFD6DC</color>
+    <color name="colorSpeaker">#ffdbe1</color>
+    <color name="colorAppIconBackground">#fcb8c2</color>
+    <color name="colorRippleEffect">#ebe6e6</color>
+    <color name="colorCompletedScheduleText">#c8b9b9</color>
+
+</resources>

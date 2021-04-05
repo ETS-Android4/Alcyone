@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_activity_alcyone"
+            android:icon="@drawable/ic_sentiment_very_satisfied_white_24dp"
+            android:title="알키오네" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_activity_schedule"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="일정" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group3">
+        <item
+            android:id="@+id/nav_activity_story"
+            android:icon="@drawable/ic_theaters_white_24dp"
+            android:title="스토리" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group4">
+        <item
+            android:id="@+id/nav_activity_costume"
+            android:icon="@drawable/icon_costume"
+            android:title="코스튬" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group5">
+        <item
+            android:id="@+id/nav_activity_setting"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="설정" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group6">
+        <item
+            android:id="@+id/nav_activity_info"
+            android:icon="@drawable/ic_info_outline_white_24dp"
+            android:title="정보" />
+    </group>
+
+</menu>

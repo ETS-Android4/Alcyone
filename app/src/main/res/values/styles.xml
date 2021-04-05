@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- action bar -->
+        <item name="colorPrimary">@android:color/white</item>
+
+        <!-- status bar -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- colorAccent -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- activity background -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- activity text -->
+        <item name="android:textColor">@color/colorDrawText</item>
+        <item name="android:textColorPrimary">@color/colorDrawText</item>
+
+        <!-- line color -->
+        <item name="android:listDivider">@color/colorItemSeparator</item>
+
+        <!-- actionbar shadow -->
+        <item name="elevation">0dp</item>
+
+        <!-- hamburger icon -->
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+
+        <!-- navigation drawer item size -->
+        <item name="listPreferredItemHeightSmall">60dp</item>
+
+        <!-- text hint color -->
+        <item name="android:textColorHint">@color/colorProgressTextView</item>
+
+        <!-- drawer item text size -->
+        <item name="android:textSize">14sp</item>
+
+        <!-- click(ripple) effect color -->
+        <item name="colorControlHighlight">@color/colorRippleEffect</item>
+
+        <!-- navigation bar -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <!-- for hamburger -->
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- appbar theme -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlHighlight">@color/colorRippleEffect</item>
+
+        <!-- overflow icon color -->
+        <item name="android:tint">@color/colorAccent</item>
+    </style>
+
+    <!-- appbar popup theme -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorRippleEffect</item>
+    </style>
+
+    <!-- for alert dialog -->
+    <style name="AppTheme.AlertDialogOverlay" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="android:windowTitleStyle">@style/TitleStyle</item>
+
+        <item name="buttonBarPositiveButtonStyle">@style/ButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/ButtonStyle</item>
+        <item name="buttonBarButtonStyle">@style/ButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/ButtonStyle</item>
+
+        <item name="android:textColor">@color/colorDrawText</item>
+        <item name="android:textColorPrimary">@color/colorDrawText</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlHighlight">@color/colorRippleEffect</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleStyle" parent="AppTheme">
+        <!--<item name="android:textColor">@color/colorAccent</item>-->
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- for splash launch -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_launch</item>
+
+        <!-- status bar -->
+        <item name="android:statusBarColor">@color/colorProgressBarBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/colorProgressBarBackground</item>
+
+        <!-- navigation bar -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+</resources>

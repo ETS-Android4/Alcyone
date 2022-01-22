@@ -181,17 +181,17 @@ public class LayoutCostume extends Fragment {
                         // buy costume
                         clickedPosition = position;
 
-                        switch (position) {
-                            case 9:
-                                MainActivity.billingProcessor.purchase(getActivity(), "bunny");
-                                break;
-                            case 10:
-                                MainActivity.billingProcessor.purchase(getActivity(), "bloomer");
-                                break;
-                            case 11:
-                                MainActivity.billingProcessor.purchase(getActivity(), "succubus");
-                                break;
-                        }
+//                        switch (position) {
+//                            case 9:
+//                                MainActivity.billingProcessor.purchase(getActivity(), "bunny");
+//                                break;
+//                            case 10:
+//                                MainActivity.billingProcessor.purchase(getActivity(), "bloomer");
+//                                break;
+//                            case 11:
+//                                MainActivity.billingProcessor.purchase(getActivity(), "succubus");
+//                                break;
+//                        }
                     }
                 }
             }

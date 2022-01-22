@@ -68,5 +68,11 @@ Hints about costumes may be obtained <a href="https://github.com/ClusterPleiades
 - Set Launch Fragment as Schedule  
 Display schedule screen rather than Alcyone when launch application.
 
-- Speed up Conversation
-<br><br>
+- Increase Speed of Conversation  
+Increase the speed of reading text when talking.
+
+- Low Specification Mode  
+Remove conversation animations.
+
+- Rename  
+Change the name Alcyone will call you.
